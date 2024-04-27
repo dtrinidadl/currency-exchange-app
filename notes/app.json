@@ -1,10 +1,12 @@
 {
   "expo": {
     "name": "DivisasApp",
-    "slug": "DivisasAppCurrencyExchange",
+    "name-expo": "00-currency-exchange-app",
+    "slug": "00-currency-exchange-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "icon-expo": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,20 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "versionCode": 1,
-        "package": "com.loricode.mynative",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.dtrinidadl.DivisasAppCurrencyExchange"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "a6d55b30-f140-433c-9e50-c27c84e36b53"
-      }
     }
   }
 }

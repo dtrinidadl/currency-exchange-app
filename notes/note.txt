@@ -1,0 +1,56 @@
+
+Abrir en consola:
+https://docs.expo.dev/debugging/tools/
+
+Loading:
+https://reactnative.dev/docs/activityindicator
+
+Banderas png
+https://www.flaticon.es/iconos-gratis/banderas
+
+Guia de estilos:
+https://reactnative.dev/docs/view-style-props
+
+Codigo por pais:
+https://es.iban.com/currency-codes
+
+API tipo de cambio:
+https://openexchangerates.org/account
+
+COMPONENTS
+https://reactnative.dev/docs/textinput#onpressout
+
+STYLES
+https://reactnative.dev/docs/flexbox?language=javascript
+
+Para detectar el darkmode
+expo install expo-constants <- pareciera no funcionar
+expo install react-native-appearance <- pareciera no funcionar
+
+
+Expo no soporta:
+import AsyncStorage from '@react-native-async-storage/async-storage';
+pasar a -> import {AsyncStorage} from 'react-native';
+se instalo desde libreria -> npm i @react-native-async-storage/async-storage
+
+
+Crear APK
+expo build:android
+instalar eas: npm i --global  eas-cli
+construir: eas build -p android --profile preview
+
+https://docs.expo.dev/deploy/build-project/
+https://www.youtube.com/watch?v=EBFodDiGLN8
+https://docs.expo.dev/build/eas-json/
+https://expo.dev/accounts/dtrinidadl/projects/DivisasAppCurrencyExchange/builds/abb58c1f-9e01-438b-b0c9-9cf7aae9d756
+
+crear sucursales pasa a siguiente sprint.
+Dennis revisar los bugs 11, estimarlos.
+Levantar ambiente de ecommerce barista.
+-----------
+Crear ubicaciones pasa al siguiente por creación UAT
+Revisión los bugs creados por QA y estimarlos
+Para el otro sprint terminamos ubicaciones y bug fixing (webadmin e-commerce)
+Para el siguiente refinamiento notificaciones.
+
+kate kuray sex
